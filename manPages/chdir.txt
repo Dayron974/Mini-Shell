@@ -1,0 +1,18 @@
+NAME
+       chdir - change le répertoire courant
+
+SYNOPSIS
+       chdir [répertoire]
+
+DESCRIPTION
+       'chdir' est utilisée pour changer le répertoire courant. Cette commande prend un seul argument, qui est le chemin du répertoire dans lequel vous voulez vous déplacer. Si l'opération de changement de répertoire réussit, le prompt de la ligne de commande sera mis à jour pour refléter le nouveau répertoire courant. Si l'opération de changement de répertoire échoue (par exemple, si le répertoire spécifié n'existe pas), un message d'erreur sera affiché. Notez que 'chdir' n'accepte qu'un seul argument. Si plus d'un argument est fourni, un message d'erreur indiquant que seule une seule opérande est attendue sera affiché.
+
+EXAMPLES
+       chdir /home/user/Documents
+           Change le répertoire courant vers /home/user/Documents.
+
+       chdir ../test
+           Change le répertoire courant vers le répertoire 'test' qui est un sous-répertoire du répertoire parent du répertoire courant.
+
+
+

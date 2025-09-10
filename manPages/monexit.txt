@@ -1,0 +1,17 @@
+NAME
+       monexit - Termine la session du shell
+
+SYNOPSIS
+       monexit
+
+DESCRIPTION
+       La commande 'monexit' est utilisée pour terminer la session actuelle du shell. Elle ne prend aucun argument.
+
+       Lorsque 'monexit' est invoquée, elle libère la mémoire allouée pour stocker le chemin d'accès système (PATH) et termine le processus du shell.
+
+       La commande 'monexit' ne renvoie aucun message ou statut. Après l'exécution de cette commande, le shell se termine immédiatement.
+
+EXAMPLES
+       monexit
+           Termine la session du shell actuel.
+

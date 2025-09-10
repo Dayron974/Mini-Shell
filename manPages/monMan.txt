@@ -1,0 +1,23 @@
+NAME
+       monMan - Affiche la documentation pour une commande
+
+SYNOPSIS
+       monMan [commande]
+
+DESCRIPTION
+       La commande 'monMan' est utilisée pour afficher la documentation d'une commande spécifique. Elle prend un seul argument qui est le nom de la commande pour laquelle la documentation sera affichée.
+
+       Lorsque 'monMan' est invoquée avec le nom de la commande comme argument, elle ouvre le fichier texte correspondant dans le répertoire 'manPages', lit chaque ligne du fichier et l'affiche sur la console.
+
+       Si le fichier de documentation pour la commande spécifiée n'existe pas ou ne peut pas être ouvert, 'monMan' affiche un message d'erreur.
+
+       Notez que 'monMan' doit être invoquée avec un seul argument. Si aucun argument n'est fourni, 'monMan' affiche un message indiquant comment utiliser la commande correctement.
+
+EXAMPLES
+       monMan chdir
+           Affiche la documentation pour la commande 'chdir'.
+
+       monMan monexit
+           Affiche la documentation pour la commande 'monexit'.
+
+
