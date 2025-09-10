@@ -11,8 +11,8 @@ Les fonctionnalités sont : l’implémentation des commandes cd, exit et man, l
   
 ## Utilisation
 
-Compilation : make
-Usage : Pour exécuter : ./myshell
+- Compilation : make
+- Usage : Pour exécuter : ./myshell
 
 ## Contraintes 
 
