@@ -8,7 +8,7 @@ Les fonctionnalités sont : l’implémentation des commandes cd, exit et man, l
 
 - Compilateur GCC
 - Make
-- 
+  
 ## Utilisation
 
 Compilation : make
