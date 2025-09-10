@@ -11,8 +11,8 @@ Les fonctionnalités sont : l’implémentation des commandes cd, exit et man, l
   
 ## Utilisation
 
-- Compilation : make
-- Usage : Pour exécuter : ./myshell
+Compilation : make  
+Usage : Pour exécuter : ./myshell
 
 ## Contraintes 
 
@@ -21,6 +21,14 @@ plusieurs redirections d’entrées/sorties, il faudrait modifier la logique du 
 à dire qu’il faudrait changer la manière de traiter une ligne de commande en la séparant en
 plusieurs commandes separées par les chevrons et le fichier de redirection. Puis, réaliser autant
 d’execv qu’il y a de commandes. Le même problème s’est posé pour les pipes.
+
+## Réalisation
+
+myshell.c : main()  
+commandes.c : commandes internes et commandes externes
+redirection.c : redirections d’entrées-sorties et les ”pipes”  
+arriere-plan.c : fonctionnement des processus en arrière-plan  
+sys.h : prototypes fonctions et structure
 
 ## Statut
 
